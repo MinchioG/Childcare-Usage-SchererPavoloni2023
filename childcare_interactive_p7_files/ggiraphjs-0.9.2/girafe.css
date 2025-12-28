@@ -151,29 +151,17 @@
 }
 
 <style>
-/* Reserve space so the plot doesn't sit under the footer */
-:root { --footer-h: 110px; } /* adjust if you need 90px etc */
-
-html, body { height: 100%; margin: 0; }
-body { padding-bottom: var(--footer-h); box-sizing: border-box; }
-
-/* Make sure your widget container doesn't extend into the footer area */
-#htmlwidget_container {
-  bottom: var(--footer-h) !important; /* overrides the inline JS sizing */
-}
-
-/* Footer fixed to bottom */
 #data-rights-footer{
-  position: fixed;
-  left: 0; right: 0; bottom: 0;
-  height: var(--footer-h);
-  box-sizing: border-box;
-  padding: 10px 14px;
+  margin-top: 24px;
+  padding-top: 10px;
   font-size: 12px;
   line-height: 1.25;
   color: #333;
-  background: rgba(255,255,255,0.92);
+}
+#data-rights-footer hr{
+  border: 0;
   border-top: 1px solid #ddd;
-  z-index: 9999;
+  margin: 0 0 10px 0;
 }
 </style>
+
