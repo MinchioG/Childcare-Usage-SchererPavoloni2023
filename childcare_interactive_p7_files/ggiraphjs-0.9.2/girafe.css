@@ -152,7 +152,7 @@
 
 <style>
 /* Reserve space so the plot doesn't sit under the footer */
-:root { --footer-h: 70px; } /* adjust if you need 90px etc */
+:root { --footer-h: 110px; } /* adjust if you need 90px etc */
 
 html, body { height: 100%; margin: 0; }
 body { padding-bottom: var(--footer-h); box-sizing: border-box; }
